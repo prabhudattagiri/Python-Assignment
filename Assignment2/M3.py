@@ -12,7 +12,7 @@ size = int(input("Enter the size of the queue: "))
 qu.MaxSize = size
 
 # insert 20 user defined values in the queue using is full and insert operation
-for i in range(20):
+for i in range(size):
     value = int(input("Enter "+str(i+1)+" element to Queue : "))
     if qu.isfull():
         print("Queue is full.")

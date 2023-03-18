@@ -13,7 +13,7 @@ size = int(input("Enter the size of the stack : "))
 st.MaxSize = size
 
 # insert 20 user defined values in the stack using is full and push operation
-for i in range(20):
+for i in range(size):
     n=int(input("Enter "+str(i+1)+" element to Stack :"))
     if st.isfull():
         print("Stack is Full")
