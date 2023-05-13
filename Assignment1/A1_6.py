@@ -12,6 +12,6 @@ elif (ch=='b'or"B"):
 else:
     print("You enter invalid choice")
 
-ps=(10**p)
+ps=(10**i)
 
-print("Index of",k,"in",num,"is",i,"and positional value is ",ps)
+print("Index of",k,"in",num,"is",p,"and positional value is ",ps)
