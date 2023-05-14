@@ -37,7 +37,7 @@ class Prime:
                 prime_list.append(num)
         return prime_list
 
-    def is_prime(n):
+    def is_prime(self,n):
         if n <= 1:
             return False
         for i in range(2, (n // 2) + 1):

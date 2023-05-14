@@ -60,7 +60,7 @@ user_queue = UserQueue(queue_size)
 # Insert 20 user-defined values in the queue
 values = []
 for i in range(queue_size):
-    value = input("Enter value to "+(i+1)+" element : ")
+    value = input("Enter value to "+str(i+1)+" element : ")
     values.append(value)
 user_queue.insert_values(values)
 
